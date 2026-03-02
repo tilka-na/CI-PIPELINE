@@ -16,3 +16,4 @@ class UserManager:
     def count_total_users(users):
         tmp=0
         return len(users)
+    ##ajout de commentaire
