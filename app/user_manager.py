@@ -2,7 +2,7 @@ class UserManager:
     def __init__(self):
         self.users = []
 
-    def add(self, username):
+    def add_user(self, username):
         if not username:
             raise ValueError("Le nom d'utilisateur est obligatoire")
         if username in self.users:
