@@ -16,7 +16,7 @@ jobs:
             - name: installer python
               uses: actions/setup-pyhton@v5
               with:
-                python-version: 3.11
+                python-version: "3.11"
             - name: installer les dependencies
               run: pip install -r requirements.txt
             - name: installer flake8
