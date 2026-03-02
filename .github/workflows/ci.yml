@@ -12,7 +12,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: recuperer le code
-              uses: actions/ckeckout@v4
+              uses: actions/checkout@v4
             - name: installer python
               uses: actions/setup-pyhton@v5
               with:
